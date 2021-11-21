@@ -16,6 +16,40 @@ Examen Backend para la empresa Suplos
 | Mis Bienes | Listar, Eliminar |
 | Report | Reporte en excel con filtro  |
 
+
+### Base de datos
+En la carpeta "bd"
+
+```sh
+intelcost_bienes
+```
+
+## Instalación del proyecto
+
+En este caso he usado xammp como gestor de base de datos, pero puede utilizar el que sea de su agrado.
+
+```sh
+    Paso 1: Inicializar Servicios
+```
+
+Luego procederemos a clonar el proyecto.
+
+```sh
+    Paso 2: git clone https://github.com/FSIce1/suplosBackEnd.git
+```
+
+Lo copiamos en la carpeta xammp/htdocs/.
+
+```sh
+    Paso 3: Creamos la base de datos llamada 'intelcost_bienes' y ejecutamos el script que se encuentra en la carpeta 'bd/intelcost_bienes.sql'
+```
+
+Lo copiamos en la carpeta xammp/htdocs/.
+
+```sh
+    Paso 4: Con esto podremos ejecutarlo localmente
+```
+
 # Inicio
 ### Inicio del proyecto
 ![screenshot](https://i.ibb.co/wYTsJmc/Inicio.png)
@@ -66,41 +100,6 @@ NOTA: Aplica la misma lógica del filtro en la pregunta 3.
 Y este es el excel que se genera con el filtro previamente colocado.
 
 ![screenshot](https://i.ibb.co/h7SzqPC/Pregunta-7.png)
-
-
-### Base de datos
-En la carpeta "bd"
-
-```sh
-intelcost_bienes
-```
-
-## Instalación del proyecto
-
-En este caso he usado xammp como gestor de base de datos, pero puede utilizar el que sea de su agrado.
-
-```sh
-    Paso 1: Inicializar Servicios
-```
-
-Luego procederemos a clonar el proyecto.
-
-```sh
-    Paso 2: git clone https://github.com/FSIce1/suplosBackEnd.git
-```
-
-Lo copiamos en la carpeta xammp/htdocs/.
-
-```sh
-    Paso 3: Creamos la base de datos llamada 'intelcost_bienes' y ejecutamos el script que se encuentra en la carpeta 'bd/intelcost_bienes.sql'
-```
-
-Lo copiamos en la carpeta xammp/htdocs/.
-
-```sh
-    Paso 4: Con esto podremos ejecutarlo localmente
-```
-
 
 ## Más sobre mi
 
